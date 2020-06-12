@@ -1,0 +1,48 @@
+/*Couleurs*/
+
+$color-primary:#fdcb46;
+$color-secondary: #000000;
+$bg-color: #579c87;
+$border-color: #a1c181;
+$color-shadow: rgba(0,0,0,0.05);
+
+/*Couleurs MENU 2*/
+
+$color-menu2: (color1: #c67412, color2: #a56799, color3: #6e4ccc);
+
+
+/*Background colors menus*/
+
+$bg-color-menus: (menu1: #fcdfdb, menu2: #fff5fe, menu3: #edefef, menu4: #fdfffd);
+
+
+/*Font sizes*/
+
+$font-size-desktop: (header: 3em, button: 1.8em, footer: 1.5em, h1: 2em, h2: 1.8em, h2menu2: 1.5em, pmenu3: 1.2em);
+
+$font-size-tablette: (header: 2.5em, button: 1.5em, footer: 1.5em, h1: 1.8em);
+
+$font-size-mobile: (header: 2em, button: 0.9em, footer: 1em, h1: 1.2em, h2:1.2em, h2menu2: 1em, p:1em);
+
+/*Font-family*/
+
+$font-family-menus: (menu1:"Dancing Script", menu2:"Source Serif Pro", menu3: "Marck Script", menu4:"Marck Script");
+
+/*Bordures menus*/
+$width-border: 170px;
+
+
+/*Breakpoints*/
+$breakpoints: (mobile: 766px, tablette : 991px);
+
+
+/*Animation Dots*/
+
+$anim-dur: 2000ms;
+$anim-delay: 200ms;
+
+
+
+/*Animation Soulignement Menus */
+
+$transform-undermenu: transform 400ms;

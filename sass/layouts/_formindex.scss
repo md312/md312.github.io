@@ -1,0 +1,43 @@
+/*Container Index*/
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 20px;
+    max-width: 80%; 
+    @include mobile-only{
+        max-width: 80%;
+        flex-direction: column;
+        align-items: center;
+     }
+
+}
+
+
+
+.container__menu--img{
+    overflow: hidden;
+    margin: 0;
+    
+}
+
+.container__menu img {
+    max-width: 400px;
+    transition: all 700ms ease-in-out;
+    transform: scale(0.8);
+    &:hover{
+        transform: scale(1.2);
+        opacity: 0.7;
+    }
+    @include menu-shadow($color-shadow);
+    @include mobile-only{
+        max-width: 250px;
+    }
+    @include tablette{
+        max-width: 300px;
+    }
+
+}
+
+

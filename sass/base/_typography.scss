@@ -1,0 +1,37 @@
+/*Typographie*/
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-size: map-get($font-size-desktop, h1);
+    font-weight: 600;
+    color: $color-secondary;
+    @include mobile-only{
+        font-size: map-get($font-size-mobile, h1);
+    }
+}
+
+
+
+h2 {
+    font-size: map-get($font-size-desktop, h2);
+    font-weight: 600;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 80%;
+}
+
+/*Typographie pages menus*/
+
+.container-menu{
+    font-family: map-get($font-family-menus, menu1);
+}
+
