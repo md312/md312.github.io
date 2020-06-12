@@ -104,7 +104,6 @@ a:hover {
   margin-top: 50px;
   margin-bottom: 150px;
   padding: 0 20px 0 20px;
-  border: 1px solid #579c87;
   border-radius: 10px 10px;
 }
 
@@ -490,7 +489,7 @@ footer {
 .container-formmenu__title {
   text-align: center;
   font-weight: 600;
-  text-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.05);
+  text-shadow: 5px 5px rgba(0, 0, 0, 0.05);
 }
 
 @media screen and (max-width: 766px) {
