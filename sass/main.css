@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*Couleurs*/
-/*Couleurs MENU 2*/
+/*Couleurs MENUS*/
 /*Background colors menus*/
 /*Font sizes*/
 /*Font-family*/
@@ -711,6 +711,60 @@ footer {
   font-size: 1.2em;
 }
 
+.title-menu__txt--couleur4::after {
+  content: '';
+  display: block;
+  margin-left: 50%;
+  margin-top: 2px;
+  -webkit-transform: translateX(-50%) scaleX(0);
+          transform: translateX(-50%) scaleX(0);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  width: 100%;
+  height: 2px;
+  background-color: #0228dd;
+  -webkit-transition: -webkit-transform 400ms;
+  transition: -webkit-transform 400ms;
+  transition: transform 400ms;
+  transition: transform 400ms, -webkit-transform 400ms;
+}
+
+.title-menu__txt--couleur5::after {
+  content: '';
+  display: block;
+  margin-left: 50%;
+  margin-top: 2px;
+  -webkit-transform: translateX(-50%) scaleX(0);
+          transform: translateX(-50%) scaleX(0);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  width: 100%;
+  height: 2px;
+  background-color: #0670f3;
+  -webkit-transition: -webkit-transform 400ms;
+  transition: -webkit-transform 400ms;
+  transition: transform 400ms;
+  transition: transform 400ms, -webkit-transform 400ms;
+}
+
+.title-menu__txt--couleur6::after {
+  content: '';
+  display: block;
+  margin-left: 50%;
+  margin-top: 2px;
+  -webkit-transform: translateX(-50%) scaleX(0);
+          transform: translateX(-50%) scaleX(0);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  width: 100%;
+  height: 2px;
+  background-color: #229df9;
+  -webkit-transition: -webkit-transform 400ms;
+  transition: -webkit-transform 400ms;
+  transition: transform 400ms;
+  transition: transform 400ms, -webkit-transform 400ms;
+}
+
 /*PAGE MENU 4*/
 .container-menu-4 {
   background-color: #fdfffd;
@@ -721,6 +775,24 @@ footer {
   .container-menu-4 h2 {
     font-size: 1.2em;
   }
+}
+
+.title-menu__txt--couleur7::after {
+  content: '';
+  display: block;
+  margin-left: 50%;
+  margin-top: 2px;
+  -webkit-transform: translateX(-50%) scaleX(0);
+          transform: translateX(-50%) scaleX(0);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  width: 100%;
+  height: 2px;
+  background-color: #7bc65b;
+  -webkit-transition: -webkit-transform 400ms;
+  transition: -webkit-transform 400ms;
+  transition: transform 400ms;
+  transition: transform 400ms, -webkit-transform 400ms;
 }
 
 /*Mentions Légales*/
