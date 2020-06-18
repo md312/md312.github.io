@@ -31,6 +31,8 @@
 
 /*Page Menu 1*/
 
+
+
 .container-menu{
     background-color: map-get($bg-color-menus, menu1);
     @include menu-shadow ($color-shadow);
@@ -40,13 +42,21 @@
     overflow: hidden;
     padding: 20px 20px 20px 20px;
     &__logo{
-        max-width: 50%;
-        margin: 40px 10px 40px 10px;
+        max-width: 15%;
+        margin: 0;
     }
     &__logo2{
-        max-width: 250px;
-        margin: 40px 0px 40px 0px;
-    }
+        width: 50px;
+        height: 50px;
+        margin-top: 25px;
+        margin-right: 5px;
+    }    
+    
+}
+
+.modifs-titre1{
+    font-size: 3em;
+    margin: 0px 0px 30px 0px;
 }
 
 .title-menu{
@@ -107,6 +117,9 @@
 
 }
 
+.container-logo2{
+    display: flex;
+}
 
 /* PAGE MENU 2*/
 
@@ -114,7 +127,7 @@
     background-color: map-get($bg-color-menus, menu2);
     font-family: map-get($font-family-menus, menu2);
 
-    & h2{
+    & h3{
         font-size: map-get($font-size-desktop, h2menu2);
         padding-top: 10px;
         @include mobile-only{
@@ -129,6 +142,12 @@
     }
 
 }
+
+.modifs-titre2{
+    font-size: 3em;
+    margin: 100px 0px 100px 0px;
+}
+
 
 .title-menu__txt{
     &--couleur1{
@@ -201,6 +220,12 @@
 
 }
 
+.modifs-titre3{
+    font-size: 5em;
+    padding-left: 5px;
+    margin: 100px 0px 100px 0px;
+}
+
 .title-menu__txt{
     &--couleur4{
  
@@ -256,11 +281,17 @@
 .container-menu-4{
     background-color: map-get($bg-color-menus, menu4);
     font-family: map-get($font-family-menus, menu4);
-    & h2{
+    & h3{
         @include mobile-only{
         font-size: map-get($font-size-mobile, h2);
         }
     }
+}
+
+.modifs-titre4{
+    font-size: 5em;
+    padding-left: 5px;
+    margin: 100px 0px 100px 0px;
 }
 
 .title-menu__txt{

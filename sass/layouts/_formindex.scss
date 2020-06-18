@@ -1,43 +1,151 @@
 /*Container Index*/
-
+.main-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
 .container{
+    height: 100%;
+    width: 60%;
     display: flex;
     justify-content: center;
-    margin: auto;
     padding-top: 20px;
-    max-width: 80%; 
     @include mobile-only{
         max-width: 80%;
         flex-direction: column;
         align-items: center;
      }
+     @include tablette{
+        width: 80%; 
+        height: 80%;
+     }
 
-}
-
-
-
-.container__menu--img{
-    overflow: hidden;
-    margin: 0;
-    
-}
-
-.container__menu img {
-    max-width: 400px;
-    transition: all 700ms ease-in-out;
-    transform: scale(0.8);
-    &:hover{
-        transform: scale(1.2);
-        opacity: 0.7;
+    &__menu{
+        width: 100%;
+        height: 100%;
+        transition: transform 500ms ease-in-out;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+            
+        &:hover{
+            transform: scale(1.2);
+            opacity: 0.7;
+            }
+       
     }
+
+}
+.container__menu a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container__overflow{
+    overflow: hidden;
+    min-width: 350px;
+    height: 550px;
+    margin: 20px 40px 20px 40px;
     @include menu-shadow($color-shadow);
     @include mobile-only{
-        max-width: 250px;
+        max-width: 150px;
+        min-height: 350px;
     }
     @include tablette{
-        max-width: 300px;
+        min-width: 250px;
+        min-height: 400px;
     }
-
+    &--1{
+        background-color: map-get($bg-color-menus, menu1);
+    }
+    &--2{
+        background-color: map-get($bg-color-menus, menu2);
+    }
+    &--3{
+        background-color: map-get($bg-color-menus, menu3);
+    }
+    &--4{
+        background-color: map-get($bg-color-menus, menu4);
+    }
 }
 
+
+/*Titres Menus*/
+.container__menu img{
+    width: 60px;
+    height: 60px;
+}
+
+.container__menu{
+    &--titre1{
+        font-family: map-get($font-family-titremenus, menu1), cursive;
+        font-size: 2.2em;
+        text-align: center;
+        color: black;
+    }
+    &--sstitre1{
+        font-family: map-get($font-family-titremenus, sstitre);
+        font-size: 2.7em;
+        font-weight: 600;
+        color: black;
+        margin-top: 10px;
+        font-style: italic;
+    }
+
+
+    &--titre2{
+        font-family: map-get($font-family-titremenus, menu2), cursive;
+        font-size: 1.4em;
+        text-align: center;
+        background: linear-gradient(135deg, #cd8841 0%, #8861f4 100%);
+        background-clip: text;
+        color: transparent;
+    }
+    &--sstitre2{
+        font-family: "Times New Roman", cursive;
+        font-size: 2.7em;
+        font-weight: 600;
+        color: map-get($color-menu2, color1);
+        margin-top: 10px;
+    }
+
+
+    &--titre3{
+        font-family: map-get($font-family-titremenus, menu3), cursive;
+        font-size: 2.2em;
+        padding-left: 2px;
+        text-align: center;
+        background: linear-gradient(144deg, #0b36d6 0%, #3987f3 100%);
+        background-clip: text;
+        color: transparent;
+    }
+    &--sstitre3{
+        font-family: map-get($font-family-titremenus, sstitre), cursive;
+        font-size: 2.7em;
+        color: map-get($color-menu3, color2);
+        margin-top: 10px;        
+    }
+
+
+    &--titre4{
+        font-family: map-get($font-family-titremenus, menu4), cursive;
+        font-size: 2em;
+        padding-left: 2px;
+        padding-right: 2px;
+        text-align: center;
+        background: linear-gradient(144deg, #599548 0%, #cdfc8e 100%);
+        background-clip: text;
+        color: transparent;
+    }           
+    &--sstitre4{
+        font-family: map-get($font-family-titremenus, sstitre), cursive;
+        font-size: 2.7em;
+        color: $color-menu4;
+        margin-top: 10px;        
+    }
+}
 

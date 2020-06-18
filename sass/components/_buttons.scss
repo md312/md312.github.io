@@ -16,13 +16,10 @@
 
 
 .button {
-    min-width: 18%;
-    max-height: 15%;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: $bg-color;
-    margin-top: 50px;
     margin-bottom: 150px;
     padding: 0 20px 0 20px;
     border-radius: 10px 10px;
@@ -33,6 +30,7 @@
 
     @include tablette{
         min-width: 30%;
+        margin-bottom: 0px;
     }
     
         &__title{

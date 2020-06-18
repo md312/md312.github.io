@@ -17,7 +17,6 @@ h1 {
 
 h2 {
     font-size: map-get($font-size-desktop, h2);
-    font-weight: 600;
 }
 
 
@@ -27,6 +26,10 @@ a{
 
 a:hover{
     opacity: 80%;
+}
+
+a:active{
+    color: black;
 }
 
 /*Typographie pages menus*/
