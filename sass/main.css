@@ -583,6 +583,8 @@ footer {
   text-align: center;
   background: linear-gradient(144deg, #0b36d6 0%, #3987f3 100%);
   background-clip: text;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
   color: transparent;
 }
 
@@ -601,6 +603,8 @@ footer {
   text-align: center;
   background: linear-gradient(144deg, #599548 0%, #cdfc8e 100%);
   background-clip: text;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
   color: transparent;
 }
 
