@@ -103,6 +103,8 @@
         text-align: center;
         background: linear-gradient(135deg, #cd8841 0%, #8861f4 100%);
         background-clip: text;
+        -moz-background-clip: text;
+        -webkit-background-clip: text;
         color: transparent;
     }
     &--sstitre2{
