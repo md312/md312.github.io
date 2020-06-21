@@ -18,7 +18,10 @@
      @include tablette{
         width: 80%; 
         height: 80%;
+        flex-direction: column;
+        align-items: center;
      }
+     
 
     &__menu{
         width: 100%;
@@ -55,10 +58,7 @@
         max-width: 150px;
         min-height: 350px;
     }
-    @include tablette{
-        min-width: 250px;
-        min-height: 400px;
-    }
+
     &--1{
         background-color: map-get($bg-color-menus, menu1);
     }

@@ -449,6 +449,13 @@ footer {
   .container {
     width: 80%;
     height: 80%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -509,13 +516,6 @@ footer {
   .container__overflow {
     max-width: 150px;
     min-height: 350px;
-  }
-}
-
-@media screen and (max-width: 991px) and (min-width: 766px) {
-  .container__overflow {
-    min-width: 250px;
-    min-height: 400px;
   }
 }
 
